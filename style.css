@@ -25,10 +25,10 @@ p {
     box-shadow: 0 2px 0 -1px white;
 }
 .tabs-component .tabs-button-wrapper .tab-button:first-child {
-    border-radius: 8px 0 0 0; //border-radius: top right bottom left
+    border-radius: 8px 0 0 0; 
 }
 .tabs-component .tabs-button-wrapper .tab-button:last-child {
-    border-radius: 0 8px 0 0; //border-radius: top right bottom left
+    border-radius: 0 8px 0 0; 
 }
 .box-content {
     background-color: white;
