@@ -1,0 +1,45 @@
+body {
+    background-color: #D3D3D3;
+    padding: 2rem 
+}
+p {
+    color: gray;
+}
+.box-content {
+    background-color: white;
+}
+.tabs-component .tabs-button-wrapper {
+    display: flex;
+}
+  .tabs-component .tabs-button-wrapper .tab-button {
+    background-color: white;
+    padding: 1rem;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    cursor: pointer;
+}
+.tabs-component .tabs-button-wrapper .tab-button.active {
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 2px 0 -1px white;
+}
+.tabs-component .tabs-button-wrapper .tab-button:first-child {
+    border-radius: 8px 0 0 0; //border-radius: top right bottom left
+}
+.tabs-component .tabs-button-wrapper .tab-button:last-child {
+    border-radius: 0 8px 0 0; //border-radius: top right bottom left
+}
+.box-content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0 8px 8px 8px;
+    border: 1px solid gray;
+}
+.tabs-content-wrapper .tab-content {
+    margin-bottom: 1rem;
+    display: none;
+}
+.tabs-content-wrapper .tab-content.active {
+    display: block;
+}
